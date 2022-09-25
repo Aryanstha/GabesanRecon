@@ -448,7 +448,7 @@ usage(){
 
 printf "${BOLD}${YELLOW}"
 figlet "gabesan"
-printf "${BOLD}${MAGENTA}gabesan v.3.0 - Open Source Project | Author: Robotshell | Twitter: @robotshelld\n\n${NORMAL}"
+printf "${BOLD}${MAGENTA}gabesan v.1.0 - Open Source Project | Author: Aryan | Github: @aryanstha\n\n${NORMAL}"
 
 PARSED_ARGUMENTS=$(getopt -a -n gabesan -o "d:w:l:apxrvmnh" --long "domain:,wildcard:,list:,all,passive,active,recon,vulnerabilities,massive,notify,help" -- "$@")
 VALID_ARGUMENTS=$?
